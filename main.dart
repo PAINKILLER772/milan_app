@@ -1,6 +1,6 @@
 
 import 'package:flutter/material.dart';
-import 'screens/login_screen.dart';
+import 'screens/profile_screen.dart';
 
 void main() {
   runApp(MilanApp());
@@ -12,7 +12,7 @@ class MilanApp extends StatelessWidget {
     return MaterialApp(
       title: 'Milan',
       theme: ThemeData(primarySwatch: Colors.pink),
-      home: LoginScreen(),
+      home: ProfileScreen(),
       debugShowCheckedModeBanner: false,
     );
   }
