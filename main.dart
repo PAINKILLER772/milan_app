@@ -1,18 +1,18 @@
 
 import 'package:flutter/material.dart';
-import 'screens/call_screen.dart';
+import 'screens/login_screen.dart';
 
 void main() {
-  runApp(MilanApp());
+  runApp(AdminPanelApp());
 }
 
-class MilanApp extends StatelessWidget {
+class AdminPanelApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Milan',
+      title: 'Milan Admin Panel',
       theme: ThemeData(primarySwatch: Colors.pink),
-      home: CallScreen(),
+      home: LoginScreen(),
       debugShowCheckedModeBanner: false,
     );
   }

@@ -1,6 +1,6 @@
 
-name: milan_app_call
-description: Milan App Call Screen Module
+name: milan_admin_panel
+description: Milan Admin Panel (Web UI)
 
 environment:
   sdk: ">=2.17.0 <3.0.0"
