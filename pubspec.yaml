@@ -1,6 +1,6 @@
 
-name: milan_app_chat
-description: Milan App Chat Module
+name: milan_app_call
+description: Milan App Call Screen Module
 
 environment:
   sdk: ">=2.17.0 <3.0.0"
