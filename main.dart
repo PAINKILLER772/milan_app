@@ -1,6 +1,6 @@
 
 import 'package:flutter/material.dart';
-import 'screens/profile_screen.dart';
+import 'screens/swipe_screen.dart';
 
 void main() {
   runApp(MilanApp());
@@ -12,7 +12,7 @@ class MilanApp extends StatelessWidget {
     return MaterialApp(
       title: 'Milan',
       theme: ThemeData(primarySwatch: Colors.pink),
-      home: ProfileScreen(),
+      home: SwipeScreen(),
       debugShowCheckedModeBanner: false,
     );
   }

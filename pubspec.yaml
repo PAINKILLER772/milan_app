@@ -1,6 +1,6 @@
 
-name: milan_app_profile
-description: Milan App Profile Module
+name: milan_app_swipe
+description: Milan App Swipe Screen Module
 
 environment:
   sdk: ">=2.17.0 <3.0.0"
@@ -9,7 +9,6 @@ dependencies:
   flutter:
     sdk: flutter
   cupertino_icons: ^1.0.2
-  image_picker: ^1.0.4
 
 flutter:
   uses-material-design: true
