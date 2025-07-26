@@ -1,6 +1,6 @@
 
 import 'package:flutter/material.dart';
-import 'screens/swipe_screen.dart';
+import 'screens/token_store_screen.dart';
 
 void main() {
   runApp(MilanApp());
@@ -12,7 +12,7 @@ class MilanApp extends StatelessWidget {
     return MaterialApp(
       title: 'Milan',
       theme: ThemeData(primarySwatch: Colors.pink),
-      home: SwipeScreen(),
+      home: TokenStoreScreen(),
       debugShowCheckedModeBanner: false,
     );
   }

@@ -1,6 +1,6 @@
 
-name: milan_app_swipe
-description: Milan App Swipe Screen Module
+name: milan_app_token_store
+description: Milan App Token Store Module
 
 environment:
   sdk: ">=2.17.0 <3.0.0"
